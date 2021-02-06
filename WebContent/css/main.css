@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+
+
+#tableH{
+	width: 10px;
+	height: 10px;
+	margin-top: 50px;
+	margin-left: 50%;
+    transform: translateX(-50%);
+  
+	
+}
+
+#titleH{
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 50px;
+	font-family: fantasy;
+	text-align: center;
+	background-color: black;
+	color: white;
+	opacity: 0.8;
+	
+}

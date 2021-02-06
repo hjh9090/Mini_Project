@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+
+.btn {
+	width: 200px;
+	height: 70px;
+	color: #ffffff;
+	background-color: #f8585b;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.bodyTd{
+		text-align: center;
+		font-size: 30px;
+		height: 50px;
+		color: white;
+}
+
+
+
+
+
+
+
+

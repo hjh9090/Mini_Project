@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+
+
+#tableSpecialB {
+	margin-top: 40px;
+	text-align:center;
+	width: 1200px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#subtitleB{
+	font-size: 50px;
+	text-align: center;	
+	color: white;
+	background-color: rgba(0,0,0,0.8);
+	
+}
+
+
+.bookssB{
+	margin-bottom: 25px;
+	margin-top: 25px;
+	width: 1200px;
+	height: 400px;
+	color: white;
+	background-color: rgba(0,0,0,0.8);
+}
+
+#td2B{
+	font-size: 50px;
+}
+
+#td3B{
+	height: 250px;
+}
+
+#btnB{
+	width: 200px;
+	height: 70px;
+	color: #ffffff;
+	background-color: #f8585b;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    font-size: 30px;
+}
+.backHome{
+	width: 200px;
+	height: 40px;
+	color: #ffffff;
+	background-color: #f8585b;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+}

@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+
+#tableH{
+	width: 700px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;	
+	margin-top: 150px;
+	text-align: center;
+	background-color: rgba(0,0,0,0.8);
+  
+	
+}
+
+#loginH{
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 50px;
+	font-family: fantasy;
+	text-align: center;
+	color: white;
+	background-color: rgba(0,0,0,0.8);
+	
+}
+
+#idH{
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	color: black;
+	opacity: 0.8;
+}
+
+#id2H{
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	opacity: 0.8;
+}
+
+#pwH{
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	color: black;
+	opacity: 0.8;
+}
+
+#pw2H{
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	opacity: 0.8;
+}
+
+#btnH{
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	background-color: black;
+	opacity: 0.8;
+}
+
+#btn2H{
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 40px;
+	font-family: fantasy;
+	text-align: center;
+	width : 50%;
+	background-color: white;
+	color: black;
+	opacity: 0.8;
+}
