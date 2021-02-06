@@ -18,7 +18,8 @@ public class RentCon2 extends HttpServlet {
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		RentModel.DateRent(request);
+		Rent_DAO.rentBook(request);
+		Rent_DAO.DateRent(request);
 		request.setAttribute("contentPage", "rent/rent2.jsp");
 		request.getRequestDispatcher("indexHome.jsp").forward(request, response);
 	}
