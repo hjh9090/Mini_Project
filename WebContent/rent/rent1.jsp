@@ -53,7 +53,7 @@ $(document).ready(function () {
 	</tr>
 	<tr>
 	<c:if test="${books.isbn != ''}">
-		<td class = "bodyTdY" colspan="2">코드 번호 : ${books.isbn}</td>
+		<td class = "bodyTdY" colspan="2">책 번호 : ${books.isbn}</td>
 	</c:if>
 	</tr>
 	<tr>
