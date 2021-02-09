@@ -83,6 +83,7 @@ public class Appoint_DAO {
 			
 		} catch (Exception e) {
 			e.printStackTrace();
+			System.out.println("DB not Connected");
 		} finally {
 			DBManager.close(con, pstmt, null);
 		}
