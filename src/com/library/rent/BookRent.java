@@ -9,6 +9,7 @@ public class BookRent {
 	private String isbn;
 	private String thumbnail;
 	private String rent;
+	private String rentdate;
 	
 	
 	public BookRent() {
@@ -17,7 +18,7 @@ public class BookRent {
 	}
 	
 	
-	public BookRent(int num,String title, String authors, String publisher, String isbn, String thumbnail, String rent) {
+	public BookRent(int num,String title, String authors, String publisher, String isbn, String thumbnail, String rent, String rentdate) {
 		super();
 		this.num = num;
 		this.title = title;
@@ -26,6 +27,7 @@ public class BookRent {
 		this.isbn = isbn;
 		this.thumbnail = thumbnail;
 		this.rent = rent;
+		this.rentdate = rentdate;
 	}
 	
 	
@@ -76,6 +78,19 @@ public class BookRent {
 	public void setRent(String rent) {
 		this.rent = rent;
 	}
+
+
+	public String getRentdate() {
+		return rentdate;
+	}
+
+
+	public void setRentdate(String rentdate) {
+		this.rentdate = rentdate;
+	}
+	
+	
+	
 	
 	
 }

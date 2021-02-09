@@ -8,9 +8,7 @@
 </head>
 <body>
 
-<%
-String returndate = (String)request.getAttribute("returndate");
-%>
+
 
 
 
@@ -21,7 +19,7 @@ String returndate = (String)request.getAttribute("returndate");
 			</tr>
 			
 			<tr><td><h2 class = "tdY">
-			<%=returndate%> 까지
+			${returndate} 까지
 			반납해주세요!</h2>
 			</td></tr>
 			<tr><td colspan="2" align="center">

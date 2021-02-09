@@ -40,7 +40,7 @@ public class MemberDAO {
 				HttpSession session = request.getSession();
 				session.setAttribute("id", mb.getId());
 			} else {
-				System.out.println("false");
+				System.out.println("false or login");
 			}
 			
 		} catch (Exception e) {
